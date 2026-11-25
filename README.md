@@ -4,10 +4,11 @@ Prototipo PWA per macchinari, registro lavori, promemoria e ricambi. Il backend 
 
 ## Avvio rapido su Windows
 
-1. Estrai `filomacchine-portable.zip` in una cartella.
-2. Verifica che sia installato Python 3.8+ oppure Node.js 22.5+.
-3. Fai doppio clic su `start.bat`.
-4. Si aprirà il browser su `http://127.0.0.1:8765`. La finestra “filoMacchine - server locale” deve restare aperta. Chiudila per fermare l’app.
+1. Scarica `filomacchine-portable.zip` dal repository GitHub e salvalo sul computer.
+2. Estrai il file ZIP in una cartella. Se hai scaricato `Source code (zip)` da GitHub, estrai quello e apri la cartella `filomacchine-main`.
+3. Verifica che sia installato Python 3.8+ oppure Node.js 22.5+.
+4. Fai doppio clic su `start.bat` nella cartella estratta.
+5. Si aprirà il browser su `http://127.0.0.1:8765`. La finestra “filoMacchine - server locale” deve restare aperta. Chiudila per fermare l’app.
 
 Al primo avvio `start.bat` sceglie un runtime disponibile e crea la cartella `data` e il database `data/filomacchine.sqlite3`, prepara le tabelle SQLite e inserisce i dati demo. Usa `server.py` se trova Python o `server.mjs` se trova Node. Ai successivi avvii conserva le modifiche. La PWA può essere installata dal browser quando è aperta sull’indirizzo locale.
 
