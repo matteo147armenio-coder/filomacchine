@@ -1,0 +1,13 @@
+{
+  "name": "filoMacchine",
+  "short_name": "filoMacchine",
+  "description": "Gestione locale di macchinari, lavori e ricambi agricoli",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f6f0",
+  "theme_color": "#284c37",
+  "icons": [
+    { "src": "/assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
